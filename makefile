@@ -1,6 +1,3 @@
-run : static.o
-	g++ -o run static.o
-static.o : static.cpp
-	g++ -c static.cpp
-clean :
-	rm run static.o
+OBJECTS = static.exe
+include ../../GNU_makefile_template
+LOCFLAGS = -I../static
