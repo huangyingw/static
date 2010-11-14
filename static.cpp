@@ -22,6 +22,7 @@ Myclass::Myclass(int a,int b,int c)
   Sum+=a+b+c;
 }
 
+// GetSum could be called both from instances or just directly from class
 void Myclass::GetSum()
 {
   //cout<<a<<endl; //错误代码，a是非静态数据成员
